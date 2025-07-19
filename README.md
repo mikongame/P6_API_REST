@@ -1,10 +1,10 @@
-## 🧠 Planify Backend – API REST + WebSockets
+## Planify Backend – API REST + WebSockets
 
 Aplicación backend para organizar planes colaborativos (como *La Noche de la Hamburguesa*) mediante tareas asignadas, en tiempo real.
 
 ---
 
-### 🚀 Stack Tecnológico
+### Stack Tecnológico
 
 * **Node.js** + **Express**
 * **MongoDB Atlas** + Mongoose
@@ -13,7 +13,7 @@ Aplicación backend para organizar planes colaborativos (como *La Noche de la Ha
 
 ---
 
-### 📦 Funcionalidades
+### Funcionalidades
 
 * CRUD completo para:
 
@@ -25,7 +25,7 @@ Aplicación backend para organizar planes colaborativos (como *La Noche de la Ha
 
 ---
 
-### 🔧 Comandos útiles
+### Comandos útiles
 
 ```bash
 npm install       # Instalar dependencias
@@ -35,7 +35,7 @@ node seed.js      # Poblar la base de datos con planes y tareas
 
 ---
 
-### 🌐 Endpoints REST principales
+### Endpoints REST principales
 
 | Método | Ruta         | Descripción                                |
 | ------ | ------------ | ------------------------------------------ |
@@ -51,7 +51,7 @@ node seed.js      # Poblar la base de datos con planes y tareas
 
 ---
 
-### 📡 Conexión a MongoDB Atlas
+### Conexión a MongoDB Atlas
 
 * La base de datos tiene acceso público activado (`0.0.0.0/0`) para facilitar la corrección.
 * Se utiliza un usuario **temporal y limitado** con permisos de escritura.
@@ -64,11 +64,10 @@ El usuario de MongoDB Atlas utilizado es **temporal y con permisos limitados**, 
 
 > ⚠️ En entornos reales, nunca se deben subir credenciales sensibles a un repositorio público.
 
-> 📂 Revisa el archivo `.env.example` incluido para ver el formato necesario.
 
 ---
 
-### 🌱 Semilla
+### Semilla
 
 ```bash
 node seed.js
@@ -81,7 +80,7 @@ Permite elegir entre:
 
 ---
 
-### 💡 Inspiración pedagógica
+### Inspiración pedagógica
 
 Este proyecto toma como referencia el ejercicio realizado en otro curso llamado **“La Noche de la Hamburguesa”**, donde se explora la relación entre modelos en MongoDB mediante una estructura narrativa: un plan (evento o noche especial) que contiene múltiples tareas organizativas.
 
