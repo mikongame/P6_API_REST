@@ -11,17 +11,20 @@ Aplicación backend para organizar planes colaborativos (como *La Noche de la Ha
 * **Socket.io** (WebSockets)
 * **dotenv**, **readline**
 
+
 ---
 
-### Funcionalidades
+### Funcionalidadess
 
 * CRUD completo para:
 
   * `Plan`: planificación colaborativa (con título y descripción)
   * `Task`: tareas dentro de un plan (con estado `done`)
-* Relación entre modelos: un plan tiene un array de tareas
+* Relación entre modelos: un plan tiene un array de tareas, y cada tarea pertenece a un único plan
 * Comunicación en tiempo real vía Socket.io (`new-task`, `task-added`)
 * Script de semilla interactivo (`node seed.js`) con opción de datos predefinidos o personalizados
+* Asociación y desvinculación de tareas en los planes mediante endpoints dedicados
+* Prevención de duplicados y sincronización entre colecciones
 
 ---
 
